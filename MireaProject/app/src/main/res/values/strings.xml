@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MireaProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_data">Data</string>
+    <string name="menu_browser">Browser</string>
+    <string name="menu_player">Player</string>
+
+    <string name="text_1">Toyota Progrès (トヨタ・プログレ) - среднеразмерный седан представительского класса, продававшийся в Японии с 1998 по 2007 год. В апреле 2001 года произошел рестаилинг, основными отличиями которого от дорестайлинга стали двигатели с непосредственным впрыском топлива (D-4) и 5-ступенчатые АКПП вместо 4-ступенчатых.</string>
+    <string name="text_2">У Toyota Progrès есть 2 варианта двигателя: 1JZ-GE (с 2001 г. 1JZ-FSE) объемом 2.5 л мощностью 200 л.с. и 2JZ-GE (с 2001 г. 2JZ-FSE) объемом 3 л мощностью 220 л.с. Существуют заднеприводные и полноприводные модификации. Данная модель построена на платформе Toyota Mark II восьмого поколения (JZX100).</string>
+    <string name="text_3">Рекламный слоган Toyota Progrès - 「小さな高級車」- small luxury car. Его размеры - длина 4.5 м, ширина 1.7 м - сопоставимы с Mercedes-Benz C-Class и BMW 3-й серии, при этом оснащение салона на уровне Toyota Crown и Toyota Celsior (Lexus LS) - сиденья из натуральной кожи, жаккардовой ткани или нубука, отделка салона натуральным деревом, адаптивный круиз-контроль, камеры, навигация и т.д.</string>
+
+    <string name="music_player">Music Player</string>
+    <string name="track_name">UNSTOPPABLE - RAISE A SUILEN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

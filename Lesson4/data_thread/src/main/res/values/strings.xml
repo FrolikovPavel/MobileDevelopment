@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">data_thread</string>
+    <string name="data_thread">Первым запускается runOnUiThread, потому что он выполняется немедленно, далее запустится post, т.к. он ставится в очередь сообщений, затем postDelayed, который тоже добавляется в очередь сообщений, но с установленной задержкой.</string>
+</resources>
