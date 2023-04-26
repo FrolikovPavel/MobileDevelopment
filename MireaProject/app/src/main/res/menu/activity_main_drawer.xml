@@ -21,12 +21,24 @@
             android:icon="@android:drawable/ic_menu_info_details"
             android:title="@string/menu_data" />
         <item
-            android:id="@+id/nav_webView"
+            android:id="@+id/nav_web_view"
             android:icon="@android:drawable/ic_menu_share"
-            android:title="@string/menu_browser" />
+            android:title="@string/menu_web_view" />
         <item
             android:id="@+id/nav_player"
             android:icon="@android:drawable/stat_sys_headset"
             android:title="@string/menu_player"/>
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_sensor"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_camera"/>
+        <item
+            android:id="@+id/nav_audio_record"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="@string/menu_audio_record"/>
     </group>
 </menu>

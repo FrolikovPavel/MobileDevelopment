@@ -85,9 +85,17 @@ public class PlayerFragment extends Fragment {
         if (savedInstanceState != null && savedInstanceState.getBoolean("isPlaying")) {
             binding.textViewTrackName.setText(getString(R.string.track_name));
             binding.imageViewAlbumArt.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.album_art, null));
+            binding.imageButtonPlay.setEnabled(false);
+            binding.imageButtonPlay.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.play_button_disabled, null));
+            binding.imageButtonPause.setEnabled(true);
+            binding.imageButtonPause.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.pause_button, null));
         } else {
             binding.textViewTrackName.setText(getString(R.string.music_player));
             binding.imageViewAlbumArt.setImageDrawable(null);
+            binding.imageButtonPlay.setEnabled(true);
+            binding.imageButtonPlay.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.play_button, null));
+            binding.imageButtonPause.setEnabled(false);
+            binding.imageButtonPause.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.pause_button_disabled, null));
         }
 
         if (ContextCompat.checkSelfPermission(getActivity(), POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED) {
@@ -104,6 +112,10 @@ public class PlayerFragment extends Fragment {
                 getActivity().startForegroundService(serviceIntent);
                 binding.textViewTrackName.setText(getString(R.string.track_name));
                 binding.imageViewAlbumArt.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.album_art, null));
+                binding.imageButtonPlay.setEnabled(false);
+                binding.imageButtonPlay.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.play_button_disabled, null));
+                binding.imageButtonPause.setEnabled(true);
+                binding.imageButtonPause.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.pause_button, null));
                 isPlaying = true;
             }
         });
@@ -114,6 +126,10 @@ public class PlayerFragment extends Fragment {
                 getActivity().stopService(new Intent(getActivity(), PlayerService.class));
                 binding.textViewTrackName.setText(getString(R.string.music_player));
                 binding.imageViewAlbumArt.setImageDrawable(null);
+                binding.imageButtonPlay.setEnabled(true);
+                binding.imageButtonPlay.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.play_button, null));
+                binding.imageButtonPause.setEnabled(false);
+                binding.imageButtonPause.setImageDrawable(ResourcesCompat.getDrawable(getResources(), R.drawable.pause_button_disabled, null));
                 isPlaying = false;
             }
         });

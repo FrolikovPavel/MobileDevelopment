@@ -49,7 +49,7 @@ public class PlayerService extends Service {
         notificationManager.createNotificationChannel(channel);
         startForeground(1, builder.build());
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.unstoppable);
+        mediaPlayer = MediaPlayer.create(this, R.raw.reigning);
         mediaPlayer.setLooping(false);
     }
 
