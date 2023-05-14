@@ -52,4 +52,14 @@
         android:name="ru.mirea.frolikov.mireaproject.AudioRecordFragment"
         android:label="@string/menu_audio_record"
         tools:layout="@layout/fragment_audio_record" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.frolikov.mireaproject.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_work_with_files"
+        android:name="ru.mirea.frolikov.mireaproject.WorkWithFilesFragment"
+        android:label="@string/menu_work_with_files"
+        tools:layout="@layout/fragment_work_with_files" />
 </navigation>

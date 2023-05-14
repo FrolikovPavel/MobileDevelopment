@@ -17,6 +17,8 @@
     <string name="menu_sensor">Sensor</string>
     <string name="menu_camera">Camera</string>
     <string name="menu_audio_record">Recorder</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_work_with_files">Work with files</string>
 
     <string name="text_1">Toyota Progrès (トヨタ・プログレ) - среднеразмерный седан представительского класса, продававшийся в Японии с 1998 по 2007 год. В апреле 2001 года произошел рестаилинг, основными отличиями которого от дорестайлинга стали двигатели с непосредственным впрыском топлива (D-4) и 5-ступенчатые АКПП вместо 4-ступенчатых.</string>
     <string name="text_2">У Toyota Progrès есть 2 варианта двигателя: 1JZ-GE (с 2001 г. 1JZ-FSE) объемом 2.5 л мощностью 200 л.с. и 2JZ-GE (с 2001 г. 2JZ-FSE) объемом 3 л мощностью 220 л.с. Существуют заднеприводные и полноприводные модификации. Данная модель построена на платформе Toyota Mark II восьмого поколения (JZX100).</string>
@@ -24,6 +26,8 @@
 
     <string name="music_player">Music Player</string>
     <string name="track_name">REIGNING - RAISE A SUILEN</string>
+
+    <string name="title_profile">Профиль студента</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
