@@ -62,4 +62,9 @@
         android:name="ru.mirea.frolikov.mireaproject.WorkWithFilesFragment"
         android:label="@string/menu_work_with_files"
         tools:layout="@layout/fragment_work_with_files" />
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="ru.mirea.frolikov.mireaproject.NetworkFragment"
+        android:label="@string/menu_network"
+        tools:layout="@layout/fragment_network" />
 </navigation>

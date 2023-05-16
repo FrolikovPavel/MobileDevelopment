@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HttpURLConnection</string>
+    <string name="ip">IP:</string>
+    <string name="city">Город:</string>
+    <string name="region">Регион:</string>
+    <string name="country">Страна:</string>
+    <string name="loc">Координаты:</string>
+    <string name="org">Провайдер:</string>
+    <string name="postal">Почтовый код:</string>
+    <string name="timezone">Часовой пояс:</string>
+    <string name="temperature">Температура:</string>
+    <string name="wind_speed">Скорость ветра:</string>
+    <string name="button_load">Загрузить</string>
+</resources>
