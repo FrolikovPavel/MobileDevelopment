@@ -67,4 +67,9 @@
         android:name="ru.mirea.frolikov.mireaproject.NetworkFragment"
         android:label="@string/menu_network"
         tools:layout="@layout/fragment_network" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="ru.mirea.frolikov.mireaproject.MapsFragment"
+        android:label="@string/menu_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

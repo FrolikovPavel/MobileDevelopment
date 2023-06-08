@@ -20,15 +20,14 @@
     <string name="menu_profile">Profile</string>
     <string name="menu_work_with_files">Work with files</string>
     <string name="menu_network">Info from network</string>
+    <string name="menu_maps">Institutions</string>
 
     <string name="text_1">Toyota Progrès (トヨタ・プログレ) - среднеразмерный седан представительского класса, продававшийся в Японии с 1998 по 2007 год. В апреле 2001 года произошел рестаилинг, основными отличиями которого от дорестайлинга стали двигатели с непосредственным впрыском топлива (D-4) и 5-ступенчатые АКПП вместо 4-ступенчатых.</string>
     <string name="text_2">У Toyota Progrès есть 2 варианта двигателя: 1JZ-GE (с 2001 г. 1JZ-FSE) объемом 2.5 л мощностью 200 л.с. и 2JZ-GE (с 2001 г. 2JZ-FSE) объемом 3 л мощностью 220 л.с. Существуют заднеприводные и полноприводные модификации. Данная модель построена на платформе Toyota Mark II восьмого поколения (JZX100).</string>
     <string name="text_3">Рекламный слоган Toyota Progrès - 「小さな高級車」- small luxury car. Его размеры - длина 4.5 м, ширина 1.7 м - сопоставимы с Mercedes-Benz C-Class и BMW 3-й серии, при этом оснащение салона на уровне Toyota Crown и Toyota Celsior (Lexus LS) - сиденья из натуральной кожи, жаккардовой ткани или нубука, отделка салона натуральным деревом, адаптивный круиз-контроль, камеры, навигация и т.д.</string>
 
     <string name="music_player">Music Player</string>
-    <string name="track_name">REIGNING - RAISE A SUILEN</string>
-
-    <string name="title_profile">Профиль студента</string>
+    <string name="track_name">Song I am. - Roselia</string>
 
     <string name="label_emailpassword">Email/Password Authentication</string>
     <string name="desc_emailpassword">Use an email and password to authenticate
@@ -58,6 +57,21 @@ tails.</string>
     <string name="temperature">Температура:</string>
     <string name="wind_speed">Скорость ветра:</string>
     <string name="button_load">Загрузить</string>
+
+    <string name="work_with_files_title">Шифр Цезаря</string>
+    <string name="work_with_files_message_hint">Сообщение</string>
+    <string name="work_with_files_shift_hint">Сдвиг</string>
+
+    <string name="profile_title">Профиль студента</string>
+    <string name="profile_name">ФИО</string>
+    <string name="profile_group">Группа</string>
+    <string name="profile_id">Номер зачетной книжки</string>
+    <string name="profile_button_save">Сохранить</string>
+    <string name="profile_button_load">Загрузить</string>
+
+    <string name="camera_last_name">Фамилия</string>
+    <string name="camera_first_name">Имя</string>
+    <string name="camera_patronymic">Отчество</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

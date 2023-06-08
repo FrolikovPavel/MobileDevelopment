@@ -9,9 +9,6 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.FragmentManager;
-
-import javax.security.auth.callback.Callback;
 
 public class SaveFileDialog extends DialogFragment {
     @NonNull

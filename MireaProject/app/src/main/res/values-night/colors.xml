@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="firebase_bg">#2B2C2E</color>
+    <color name="firebase_email_pass_bg">#101010</color>
+</resources>
